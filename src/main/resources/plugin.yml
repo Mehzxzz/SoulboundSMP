@@ -1,0 +1,13 @@
+name: SoulboundSMP
+version: '1.0.0'
+main: io.github.mehzxzz.soulboundSMP.SoulboundPlugin
+api-version: '1.21'
+authors: [ Mehzxzz ]
+description: Every player has 5 lives. If they lose their lives their soul leaves their body and they will be placed into spectator mode forever.
+commands:
+  setlives:
+    description: Set a player's lives
+    usage: /setlives <player> <amount>
+  donatelife:
+    description: Donate a life to another player
+    usage: /donatelife <player> [confirm]
